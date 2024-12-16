@@ -34,5 +34,12 @@ https://www.kaggle.com/datasets/swatikhedekar/exploratory-data-analysis-on-netfl
 [http://localhost:9090](http://localhost:9090)
 
 ## Results:
+
+### Video Demosntartion:
 [https://github.com/Sohaib012/EDA_Netflix_Dataset_Spark/blob/main/Running_Cluster_Result.mp4
 ](https://github.com/Sohaib012/EDA_Netflix_Dataset_Spark/blob/a34cc78d999c546e971d7f9a94f9f64405814d7b/Running_Cluster_Result.mp4)
+
+
+### Spark local host:
+![image](https://github.com/user-attachments/assets/9ae9f9c4-87d0-4641-bd42-1af458c80c82)
+
