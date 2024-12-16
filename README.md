@@ -15,19 +15,23 @@ https://www.kaggle.com/datasets/swatikhedekar/exploratory-data-analysis-on-netfl
 
 
 ## Code Instructions:
+1. Starting the Cluster.
  ```bash
    docker-compose up -d
    ```
-Starting the Cluster.
 
+2. Copy EDA on NEtflix Dataset to container:
    ```bash
    docker cp -L Netflix_dataset_EDA.py spark-master:/opt/bitnami/spark/Netflix_dataset_EDA.py
    ```
-Copy EDA on NEtflix Dataset to container:
 
- Submit the PySpark job:
+ 3. Submit the PySpark job:
    ```bash
   docker exec spark-master spark-submit --master spark://spark-master:7077 /opt/bitnami/spark/Netflix_dataset_EDA.py
    ```
- Check local host for running applicationsa and job summary:
+
+4. Check local host for running applicationsa and job summary:
 [http://localhost:9090](http://localhost:9090)
+
+## Results:
+https://github.com/Sohaib012/EDA_Netflix_Dataset_Spark/blob/main/Running_Cluster_Result.mp4
